@@ -1,0 +1,54 @@
+.paralax {
+    position: relative;
+    background-color: transparent;
+    background-attachment: fixed;
+    overflow: hidden;
+
+    h5 {
+        font-size: 19px;
+        line-height: 29px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: -0.3px;
+        text-transform: none;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: 64px;
+        line-height: 68px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -1.5px;
+        text-transform: none;
+        margin: 0 0 27px;
+
+        span {
+            display: block;
+        }
+    }
+}
+
+.paralax1 {
+    background-image: url(../../assets/parallax-1.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    padding: 164px 0px 196px 0px;
+    color: white;
+}
+
+.paralax2 {
+    background-image: url(../../assets/parallax-2.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    padding: 173px 0px 203px 0px;
+
+    .posDes {
+        display: flex;
+        justify-content: flex-end;
+
+        h3 {
+            color: #000;
+        }
+    }
+}

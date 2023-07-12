@@ -1,0 +1,39 @@
+@import '../Sass/variables.scss';
+
+.topBar {
+    background: $text-color;
+}
+
+.topBarInner {
+    display: flex;
+    color: $link-color;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        color: $link-color;
+        padding: 10px 0;
+        line-height: 30px;
+        text-decoration: none;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.topBarLink {
+    display: flex;
+
+    a {
+        margin-right: 15px;
+    }
+}
+
+.topBarSocial {
+    display: flex;
+
+    a {
+        padding-left: 20px;
+    }
+}
