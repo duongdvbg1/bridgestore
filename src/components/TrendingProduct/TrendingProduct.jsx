@@ -16,6 +16,7 @@ const TrendingProduct = () => {
                         See all products
                     </Link>
                 </div>
+                <div className="tabs"></div>
             </div>
         </div>
     )
